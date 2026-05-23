@@ -1,0 +1,15 @@
+paths:
+  input_dir: "./input"
+  output_dir: "./output"
+  log_file: "purge.log"
+
+pdf_settings:
+  dpi: 300
+  adaptive_threshold_block_size: 11
+  adaptive_threshold_c: 2
+  target_words: ["工附", "微信", "圣贤", "资料"]
+  ocr_lang: "chi_sim+eng"
+
+word_settings:
+  remove_images: true
+  remove_metadata: true
